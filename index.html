@@ -98,6 +98,106 @@
             border: 2px dashed #ffa500;
             padding: 30px;
             border-radius: 15px;
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy birthday juraaaa </title>
+    <style>
+        /* Pengaturan Dasar & Background dari Pinterest */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-image: url('https://i.pinimg.com/736x/4c/ee/eb/4ceeebd0593d22300e8fbdb3e69b17ea.jpg'); 
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: #5c4033;
+        }
+
+        .container {
+            max-width: 450px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+        }
+
+        /* Styling Kartu / Kontainer Konten */
+        .card {
+            background: rgba(255, 255, 255, 0.95); /* Sedikit transparan biar estetik */
+            border: 3px solid #ffcc00;
+            border-radius: 20px;
+            padding: 20px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+            text-align: center;
+            box-sizing: border-box;
+        }
+
+        h1, h2 {
+            color: #e6b800;
+            margin-top: 10px;
+        }
+
+        p {
+            line-height: 1.6;
+            font-size: 14px;
+        }
+
+        /* Gambar Karakter / Foto */
+        .character-img {
+            width: 150px;
+            height: auto;
+            margin: 10px auto;
+        }
+
+        .photo-gallery img {
+            width: 100%;
+            border-radius: 12px;
+            margin-bottom: 10px;
+            border: 2px solid #ffe066;
+        }
+
+        /* Tombol Lucu */
+        .btn {
+            background-color: #ffa500;
+            color: white;
+            border: none;
+            padding: 12px 28px;
+            font-size: 15px;
+            font-weight: bold;
+            border-radius: 50px;
+            cursor: pointer;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 10px;
+        }
+
+        .btn:hover {
+            transform: scale(1.05);
+            background-color: #cc8400;
+        }
+
+        /* Widget Spotify */
+        .spotify-embed {
+            border-radius: 12px;
+            margin: 15px 0;
+            border: none;
+        }
+
+        /* Amplop Surat */
+        .envelope {
+            background: #fff3cd;
+            border: 2px dashed #ffa500;
+            padding: 30px;
+            border-radius: 15px;
             cursor: pointer;
             font-weight: bold;
             color: #d48800;
@@ -126,7 +226,8 @@
 
         <!-- KARTU 1: Sambutan & Pompompurin -->
         <div class="card">
-            <img class="character-img" src="https://i.pinimg.com/originals/f3/f9/2f/f3f92f58e1c6767676fb1dff26adccdd.png" alt="Pompompurin">
+            <!-- Link gambar Pompompurin yang sudah di-fix -->
+            <img class="character-img" src="https://i.imgur.com/vH1Z1fK.png" alt="Pompompurin">
             <h1>Selamat Ulang Tahun</h1>
             <p style="font-weight: bold; font-size: 16px;"> (｡♥‿♥｡)</p>
             <p>Klik tombol di bawah ini buat kejutan kecil selanjutnya! </p>
@@ -142,8 +243,8 @@
             <span style="font-size: 24px;">🎵</span>
             <p><i>Ini lagu yang selalu mengingatkanku padamu...</i></p>
             
-            <!-- Widget Spotify Embed (Bisa diganti dengan track id pilihanmu) -->
-            <iframe class="spotify-embed" src="https://open.spotify.com/embed/track/6Uen9vYgYfH7uS88wa6ZgG?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <!-- Link embed Spotify yang sudah di-fix dari error -->
+            <iframe class="spotify-embed" src="https://open.spotify.com/embed/track/6Uen9vYgYfH7uS88wa6ZgG" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
             
             <p>Setiap kali mendengar lagu ini, gua selalu keinget ama lu .prenkk </p>
         </div>
@@ -151,7 +252,7 @@
         <!-- KARTU 3: Galeri Foto -->
         <div class="card photo-gallery">
             <h3>Momen Kita 📸</h3>
-            <!-- Ganti src dengan link foto kalian sendiri -->
+            <!-- Ganti src di bawah dengan nama file foto lo kalau udah diupload ke GitHub -->
             <img src="https://via.placeholder.com/400x300/ffe066/5c4033?text=Foto+Minecraft+/+Kalian+Disini" alt="Foto Kenangan 1">
             <img src="https://via.placeholder.com/400x300/ffd24d/5c4033?text=Foto+Bersama+Disini" alt="Foto Kenangan 2">
             <p>Mau membukanya? *⁠(⁠(⁠*⁠^⁠ω⁠^⁠*⁠)⁠)⁠*</p>
